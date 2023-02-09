@@ -1,6 +1,6 @@
 # Fourier Series Loader 
 
-This repository is a user-friendly implementation of the Fourier Series Loader (FSL) method introduced in Moosa, M. & Watts, T.W. *et. al.* (2023)<sup>[1](#how-to-cite-this-code)</sup>. The FSL is a method for preparing quantum states that encode multi-dimensional Fourier series using linear-depth quantum circuits. This method allows for the highly accurate loading of arbitrary complex-valued functions on a quantum computer.
+This repository is a user-friendly implementation of the Fourier Series Loader (FSL) method introduced in M. Moosa, T.W. Watts *et al.* (2023)<sup>[1](#how-to-cite-this-code)</sup>. The FSL is a method for preparing quantum states that encode multi-dimensional Fourier series using linear-depth quantum circuits. This method allows for the highly accurate loading of arbitrary complex-valued functions on a quantum computer.
 
 We present four examples to illustrate the use of the FSL method in this repository. In each of these examples, we perform a quantum simulation on Qiskit of loading functions into a quantum state. For ease of use, we have presented these examples as step-by-step tutorials on how to use the FSL method. Hence, interested users can easily reuse the codes provided in this repository for their own use. In this repository, we provide examples of loading periodic functions, non-periodic functions, piece-wise continuous functions, and function of two variables.
 
@@ -39,8 +39,7 @@ The code in this repository also made use of the following Python packages:
 
 <a id="how-to-cite-this-code"></a> If you use Fourier Series Loader (FSL) method in your work, please consider citing the following paper:
 
-> Mudassir Moosa, Thomas W. Watts, Yiyou Chen, Abhijat Sarma, and Peter L. McMahon (2023). Linear-depth quantum circuits for loading Fourier approximations of arbitrary functions. *Manuscript in preparation.*  
-
+> Mudassir Moosa, Thomas W. Watts, Yiyou Chen, Abhijat Sarma, and Peter L. McMahon (2023). Linear-depth quantum circuits for loading Fourier approximations of arbitrary functions. [arXiv:2302.03888](https://arxiv.org/abs/2302.03888)
 
 # License
 
